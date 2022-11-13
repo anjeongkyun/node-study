@@ -14,6 +14,7 @@ app.listen(3000, function() {
 });
 
 app.get('/users', function(req, res) {
-    console.log('/users');
     res.json(users);
 });
+
+module.exports = app;
